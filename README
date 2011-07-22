@@ -1,0 +1,4 @@
+The principle of this hack is that I patch my aux signal to a free pin of the
+main signal selection IC on the audio PCB and hook a AVR microcontroller between
+this IC and the stereo's CPU which may then control the signal source selection
+and select my aux input when requested by a switch added to the front.
