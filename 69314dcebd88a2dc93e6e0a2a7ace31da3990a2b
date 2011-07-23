@@ -1,0 +1,1 @@
+Unfortunately the ccb bus of this device is shared by multiple slaves, so main.c would have to be fixed to include address handling. I do not pursue this project further since I found a way to patch the aux signal into the line between the tone control IC and the output amp using the front headphone jack. Perhaps I will write down a bit about that somewhere.
