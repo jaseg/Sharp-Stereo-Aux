@@ -93,7 +93,7 @@ void set_to_aux(void){
 }
 
 void poll_and_repeat_ccb(void){
-	if(MASTER_CS_INPUT & _BV(MASTER_CS_INPUT)){
+	if(MASTER_CS_INPUT & _BV(MASTER_CS_PIN)){
 		if(!(state & LAST_MASTER_CS)){
 			//MASTER_CS just went high.
 			state |= LAST_MASTER_CS;
